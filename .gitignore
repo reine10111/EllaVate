@@ -1,0 +1,32 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Playwright
+playwright-report/
+test-results/
+
+# Allure
+allure-report/
+allure-results/
+
+# Environment (API keys!)
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build
+coverage/
+dist/
+build/
+*.tmp
