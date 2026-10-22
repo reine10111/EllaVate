@@ -122,3 +122,99 @@
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-14px); }
 }
+
+.card { max-width: 980px; }
+
+.error-box {
+  margin-top: 1.2rem;
+  padding: 1rem;
+  border: 2px dashed var(--purple-400);
+  border-radius: 20px;
+  background: var(--purple-50);
+  color: var(--purple-900);
+}
+
+.report-wrap { margin-top: 1.6rem; }
+
+.report-title {
+  font-size: 1.3rem;
+  color: var(--purple-900);
+  margin: 0 0 0.6rem;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.6rem;
+}
+
+.meta-text { color: var(--purple-600); font-weight: 600; font-size: 0.9rem; }
+
+.badge {
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--white);
+  background: var(--purple-600);
+}
+.sev-low { background: #16a34a; }
+.sev-medium { background: #f59e0b; }
+.sev-high { background: #ef4444; }
+.sev-critical { background: #991b1b; }
+
+.desc { color: var(--purple-900); line-height: 1.6; margin: 0 0 1.2rem; }
+
+.table-scroll { overflow-x: auto; border-radius: 16px; border: 2px solid var(--purple-200); }
+
+.bug-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  color: var(--purple-900);
+}
+
+.bug-table th {
+  background: var(--purple-600);
+  color: var(--white);
+  text-align: left;
+  padding: 12px 14px;
+}
+
+.bug-table td {
+  padding: 12px 14px;
+  vertical-align: top;
+  border-top: 1px solid var(--purple-200);
+  line-height: 1.5;
+}
+
+.bug-table tbody tr:nth-child(even) { background: var(--purple-50); }
+
+.passed { color: #16a34a; }
+.failed { color: #dc2626; }
+
+.download-row {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  flex: 1;
+  min-width: 160px;
+  padding: 12px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--purple-600);
+  background: var(--white);
+  border: 2px solid var(--purple-400);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s;
+}
+
+.btn-outline:hover { background: var(--purple-50); transform: translateY(-2px); }
